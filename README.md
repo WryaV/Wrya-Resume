@@ -1,14 +1,43 @@
-# Wrya-Resume
-A personal resume created using HTML and CSS to showcase my experience as a Full-Stack Developer and Data Scientist.
+# Wrya Vakili — AI Engineer Portfolio Resume
+
+Professional interactive resume and portfolio website built using HTML, CSS, and JavaScript.
+
+## Overview
+
+This project presents my professional journey as an AI Engineer and Data Scientist specializing in:
+
+- Enterprise AI systems
+- LLM-integrated applications
+- Machine learning platforms
+- Analytics engineering
+- Intelligent automation
+- Data-driven enterprise solutions
+
+The website is designed with a modern enterprise-tech aesthetic inspired by AI startups and analytics platforms.
 
 ## Features
-- Custom-designed sections for profile, skills, experience, education, and certifications.
-- Responsive layout with a modern design.
-- Clean and minimal styling using CSS.
 
-## Usage
-1. Clone the repository or download the files.
-2. Open `index.html` in any web browser to view the resume.
+- Interactive career timeline
+- Enterprise-inspired UI/UX
+- Responsive modern design
+- Animated project cards
+- Skills visualization
+- Professional portfolio presentation
+
+## Technologies
+
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Design
+- GitHub Pages
+
+## Live Website
+
+https://wryav.github.io/Wrya-Resume/
 
 ## Contact
-Email: [vrichvri@gmail.com](mailto:vrichvri@gmail.com)
+
+- LinkedIn: https://linkedin.com/in/wryavakili
+- GitHub: https://github.com/WryaV
+- Email: wrya.vakili@gmail.com

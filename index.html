@@ -1,135 +1,228 @@
-<!--Creating a Resume for Myself Using HTML and CSS-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wrya Vakili Resume</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #1e1e1e;
-            color: white;
-            text-align: center;
-            padding: 40px;
-        }
-        header img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 5px solid #1dbf73;
-        }
-        header h1 {
-            margin: 20px 0 10px;
-            font-size: 2.5rem;
-        }
-        header p {
-            margin: 0;
-            font-size: 1.2rem;
-            color: #aaa;
-        }
-        section {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            border-left: 6px solid #1dbf73;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-        section h2 {
-            color: #1dbf73;
-            font-size: 1.8rem;
-            margin-bottom: 10px;
-        }
-        section p, ul {
-            font-size: 1rem;
-            line-height: 1.6;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 10px;
-            position: relative;
-            padding-left: 20px;
-        }
-        ul li::before {
-            content: "⮞";
-            position: absolute;
-            left: 0;
-            color: #1dbf73;
-            font-size: 1.2rem;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #1e1e1e;
-            color: #ccc;
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Wrya Vakili | AI Engineer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <header>
-        <img src="wrya 2023.jpg" alt="Wrya Vakili">
-        <h1>Wrya Vakili</h1>
-        <p>Full-Stack Developer | Data Scientist</p>
+    <div class="background-glow"></div>
+
+    <header class="hero">
+
+        <div class="hero-content">
+
+            <img src="assets/profile.jpg" alt="Wrya Vakili" class="profile-img">
+
+            <h1>Wrya Vakili</h1>
+
+            <h2>
+                AI Engineer | Machine Learning & LLM Solutions |
+                Data Science & Intelligent Systems
+            </h2>
+
+            <p class="hero-description">
+                Building intelligent enterprise systems, AI-powered analytics platforms,
+                recommendation engines, and LLM-integrated business solutions.
+            </p>
+
+            <div class="hero-links">
+
+                <a href="mailto:wrya.vakili@gmail.com">Email</a>
+
+                <a href="https://github.com/WryaV" target="_blank">GitHub</a>
+
+                <a href="https://linkedin.com/in/wryavakili" target="_blank">LinkedIn</a>
+
+            </div>
+
+        </div>
+
     </header>
 
-    <section>
-        <h2>Professional Profile</h2>
-        <p>Full-stack developer and data scientist with expertise in C#, ASP.NET, Python, and Power BI. I build dynamic web apps and leverage data insights to solve complex problems. A team player with a collaborative and motivated approach, I excel in delivering impactful solutions across industries.</p>
+    <section class="section">
+
+        <h3>About Me</h3>
+
+        <p>
+            AI Engineer and Data Scientist with 10+ years of experience building
+            intelligent systems, enterprise analytics platforms, machine learning solutions,
+            and AI-powered applications.
+        </p>
+
+        <p>
+            Specialized in LLM-integrated enterprise systems, recommendation engines,
+            intelligent automation, analytics pipelines, and scalable AI solutions
+            using Python, .NET, SQL, and modern ML frameworks.
+        </p>
+
     </section>
 
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Proficient in: C#, ASP.NET, JavaScript, SQL, REST APIs</li>
-            <li>Front-end: HTML5, CSS3, JavaScript</li>
-            <li>Data Science: Python, R, Power BI, Machine Learning</li>
-            <li>Tools: Visual Studio, Git, Power BI, SQL</li>
-        </ul>
+    <section class="section">
+
+        <h3>Core Expertise</h3>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">LLM Applications</div>
+            <div class="skill-card">Machine Learning</div>
+            <div class="skill-card">Recommendation Systems</div>
+            <div class="skill-card">Enterprise AI</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">C# / .NET</div>
+            <div class="skill-card">SQL & Data Engineering</div>
+            <div class="skill-card">Power BI</div>
+            <div class="skill-card">Analytics Pipelines</div>
+            <div class="skill-card">Vector Databases</div>
+            <div class="skill-card">Azure DevOps</div>
+            <div class="skill-card">Optimization Modeling</div>
+
+        </div>
+
     </section>
 
-    <section>
-        <h2>Experience</h2>
-        <p><strong>Research Assistant</strong> – Blekinge Institute of Technology (2024)</p>
-        <p>Worked on modeling, statistical inference, and finance/economic subjects in collaboration with researchers, delivering four major research projects.</p>
-        
-        <p><strong>Full-Stack Developer</strong> – Freelance (2020–2024)</p>
-        <p>Built dynamic web applications using C#, ASP.NET Core, and JavaScript for small businesses, with integrated SQL databases and RESTful APIs.</p>
-        
-        <p><strong>Data Scientist</strong> – RFA (2016–2020)</p>
-        <p>Developed predictive models and applied machine learning to optimize production strategies for the mining industry.</p>
+    <section class="section">
+
+        <h3>Professional Journey</h3>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-date">2025 – Present</div>
+                <div class="timeline-content">
+                    <h4>AI & Intelligent Systems Lead — NextInfiMind</h4>
+                    <p>
+                        Leading AI-powered enterprise system development integrating
+                        LLMs, analytics workflows, recommendation systems,
+                        and intelligent automation platforms.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">2025 – Present</div>
+                <div class="timeline-content">
+                    <h4>AI Engineer & Data Scientist — TOSSAM</h4>
+                    <p>
+                        Building enterprise analytics systems, KPI dashboards,
+                        predictive models, and AI-enhanced operational platforms.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">2025</div>
+                <div class="timeline-content">
+                    <h4>.NET Full Stack Developer — Resource Point AB</h4>
+                    <p>
+                        Contributed to enterprise B2B systems using ASP.NET,
+                        GraphQL, Azure DevOps, and scalable backend architectures.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h4>Research & Teaching Assistant — BTH Sweden</h4>
+                    <p>
+                        Conducted financial and stochastic modeling research using
+                        Python, R, and advanced statistical analysis techniques.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">2013 – 2024</div>
+                <div class="timeline-content">
+                    <h4>Independent Data & AI Consultant</h4>
+                    <p>
+                        Delivered AI systems, analytics platforms, optimization models,
+                        and intelligent enterprise solutions across industries.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
     </section>
 
-    <section>
-        <h2>Education</h2>
-        <p><strong>MS in Financial Mathematics</strong> – Azarbaijan Shahid Madani University (2010–2012)</p>
-        <p><strong>BSc in Applied Mathematics</strong> – Payame Noor University (2005–2009)</p>
+    <section class="section">
+
+        <h3>Selected Projects</h3>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <h4>AI-Powered ERP Platform</h4>
+                <p>
+                    LLM-integrated enterprise platform with conversational AI,
+                    recommendation systems, and analytics workflows.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h4>Customer Value Intelligence Hub</h4>
+                <p>
+                    Advanced customer analytics dashboard with CLV prediction,
+                    churn analysis, cohort tracking, and ML segmentation.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h4>Conversational Database Intelligence</h4>
+                <p>
+                    Natural-language querying platform enabling AI-driven
+                    interaction with enterprise databases.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h4>Industrial Optimization Platform</h4>
+                <p>
+                    Optimization engine for turbine-package selection using
+                    operational and environmental datasets.
+                </p>
+            </div>
+
+        </div>
+
     </section>
 
-    <section>
-        <h2>Certifications</h2>
-        <ul>
-            <li>Web Development Certification – Lexicon (2024)</li>
-            <li>Microsoft Azure AZ &ndash; 900 (2024)</li>
-            <li> C# Intermediate – Udemy (2024)</li>
-            <li> C# Advanced – Udemy (2024)</li>
-            <li>Python for Data Science and Machine Learning Bootcamp – Udemy (2024)</li>
-        </ul>
+    <section class="section">
+
+        <h3>Education</h3>
+
+        <div class="education-item">
+            <h4>PhD — Applied Mathematics</h4>
+            <p>Optimization • Stochastic Modeling • Financial Modeling</p>
+        </div>
+
+        <div class="education-item">
+            <h4>MSc — Applied Mathematics</h4>
+        </div>
+
+        <div class="education-item">
+            <h4>BSc — Applied Mathematics</h4>
+        </div>
+
     </section>
+
     <footer>
-        <p>Contact: <a href="mailto:vrichvri@gmail.com">vrichvri@gmail.com</a></p>
-        <p><a href="https://github.com/WryaV" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/wryavakili/" target="_blank">LinkedIn</a></p>
+
+        <p>
+            © 2026 Wrya Vakili — AI Engineer & Intelligent Systems Specialist
+        </p>
+
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
